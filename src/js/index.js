@@ -5,5 +5,5 @@ const elementoPlataformas = document.querySelector(
 );
 
 botao.addEventListener("click", () => {
-  elementoPlataformas.classList.toogle("ativo");
+  elementoPlataformas.classList.toggle("ativo");
 });
